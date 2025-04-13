@@ -1,0 +1,65 @@
+.overview {
+    position: relative;
+    bottom: 50px;
+    color: #fff;
+
+    &__title {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+    &__total {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+.total {
+
+
+    &__group {
+        border-radius: 20px;
+    }
+
+    &__group-subtitle {
+        margin-bottom: 20px;
+    }
+
+    &__group-balance {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    &__group-update {
+        font-size: 14px;
+        color: #313131;
+    }
+}
+
+.group--big {
+    background: #181818;
+    width: 450px;
+    height: 180px;
+    padding: 20px;
+}
+
+.group--small {
+    background: linear-gradient(135deg, #222, #222, green);
+    width: 270px;
+    height: 180px;
+    padding: 20px;
+}
+
+.group--small:nth-child(3) {
+    background: linear-gradient(135deg, #222, #222, red);
+}
+
+.percent--green {
+    color: green;
+    font-size: 18px;
+}
+
+.percent--red {
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+}
