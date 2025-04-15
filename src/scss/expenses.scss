@@ -1,7 +1,6 @@
-.monthly {
-    margin-bottom: 42px;
-
+.expenses {
     &__container {
+        border: 1px solid #000;
         max-width: 1100px;
         margin-left: auto;
         margin-right: auto;
@@ -9,27 +8,10 @@
 
     &__inner {
         display: flex;
-        padding: 0 60px;
     }
 
     &__left {
         max-width: 50%;
-    }
-
-    &__left-title {
-        margin-top: 119px;
-        font-weight: 400;
-        font-size: 42px;
-        line-height: 38.4px;
-        letter-spacing: 0%;
-        margin-bottom: 20px;
-    }
-
-    &__left-description {
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 30.6px;
-        letter-spacing: 0.18px;
     }
 
     &__right {
@@ -37,9 +19,28 @@
         position: relative;
         left: 50px;
         top: 20px;
+    }
 
-        img {
-            max-width: 100%;
-        }
+    &__right-title {
+        font-size: 32px;
+        line-height: 38.4px;
+        letter-spacing: 0%;
+        margin-bottom: 20px;
+        font-weight: 400;
+    }
+
+    &__right-description {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30.6px;
+        letter-spacing: 0.18px;
+        max-width: 427px;
+        color: #252B3B;
+        margin-bottom: 24px;
+    }
+
+    &__right-img {
+        position: relative;
+        bottom: 5px;
     }
 }
