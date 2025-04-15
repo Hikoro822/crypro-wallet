@@ -1,0 +1,72 @@
+.footer {
+
+    &__inner {
+        background: #000;
+        color: #fff;
+        padding: 100px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__description {
+        font-size: 15px;
+        line-height: 19.2px;
+        letter-spacing: 0%;
+        margin-bottom: 40px;
+    }
+
+    &__menu {
+        position: relative;
+        bottom: 100px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 20px;
+    }
+
+    &__link {
+        color: #fff;
+    }
+}
+
+.logo {
+    margin-bottom: 22px;
+}
+
+.form {
+    &__input {
+        background: #252525;
+        padding: 12px 20px;
+        border-radius: 12px;
+    }
+
+    &__button {
+        width: 98px;
+        height: 42px;
+        background-color: #975CFF;
+        border-radius: 12px;
+        position: relative;
+        top: 16px;
+        left: 10px;
+    }
+}
+
+.author {
+    margin-top: 50px;
+
+    span {
+        color: #985CFF;
+    }
+}
+
+.share {
+    position: relative;
+    top: 100px;
+    color: #545454;
+
+    span {
+        color: #985CFF;
+    }
+}

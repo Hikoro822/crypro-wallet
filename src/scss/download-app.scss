@@ -1,0 +1,51 @@
+.download-app {
+    margin-bottom: 100px;
+
+    &__container {
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__inner {
+        background-image: url(download-app-bg.svg);
+        background-size: cover;
+        border-radius: 35px;
+        color: #fff;
+    }
+
+    &__left {
+        position: relative;
+        top: 155px;
+        max-width: 50%;
+        left: 80px;
+    }
+
+    &__right {
+        max-width: 50%;
+    }
+
+    &__title {
+        font-size: 46px;
+        line-height: 46px;
+        letter-spacing: 0.46px;
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        font-size: 12px;
+        line-height: 15.6px;
+    }
+
+    &__image {
+        position: relative;
+        left: 580px;
+        bottom: 1px;
+    }
+}
+
+.button {}

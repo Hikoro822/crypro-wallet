@@ -1,0 +1,98 @@
+.started {
+    margin-bottom: 40px;
+
+    &__container {
+        max-width: 1184px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 42px;
+        line-height: 59.8px;
+        letter-spacing: 1.3px;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-size: 19px;
+        line-height: 34px;
+        letter-spacing: .2px;
+        margin-bottom: 70px;
+        color: #252B3B;
+    }
+
+    &__card {
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        transition: .55s;
+    }
+
+    &__card-personal {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+        max-width: 405px;
+        border-radius: 30px;
+        padding: 50px;
+    }
+
+    &__card-business {
+        background-image: url(business-cardBg.svg);
+        color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .6);
+        max-width: 405px;
+        border-radius: 30px;
+        padding: 50px;
+    }
+
+}
+
+
+
+.personal {
+    &__title {
+        font-size: 29px;
+        line-height: 39px;
+        letter-spacing: 0.3px;
+        margin-bottom: 12px;
+    }
+
+    &__description {
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.18px;
+        margin-bottom: 22px;
+    }
+
+    &__price {
+        font-size: 50px;
+        line-height: 65px;
+        letter-spacing: 0%;
+        margin-bottom: 13px;
+
+        span {
+            font-size: 24px;
+            line-height: 31.2px;
+            letter-spacing: 0%;
+            color: #565961c2;
+        }
+    }
+
+    &__button {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    &__list-item {
+        img {
+            position: relative;
+            bottom: 5px;
+        }
+    }
+}
+
+.button--white {
+    background: #fff;
+    color: #000;
+}
